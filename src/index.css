@@ -11,3 +11,35 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.card-container{
+  display: flex;
+  align-items: center;
+  margin: 2rem 0;
+}
+.title{
+  text-align: center;
+}
+.card-container img{
+  width: 100px;
+  height: 100px;
+  margin-left: 3rem;
+}
+
+.user-description{
+  margin-left: 2rem;
+
+}
+form {
+  text-align: center;
+  margin-top: 2rem;
+}
+input{
+  padding: 0.8rem;
+  border: 1px solid grey;
+}
+button{
+  padding: 0.8rem;
+  border: 1px solid grey;
+  color: black;
+}
